@@ -106,7 +106,7 @@ python automation_runner.py
 
 For professional QA automation, prefer `pytest` because it gives better reporting, fixtures, markers, and CI support.
 
-## GitHub Actions 
+## GitHub Actions  
 
 The included workflow installs dependencies, verifies Python syntax, and collects tests. It does not run the live login test because GitHub should not have credentials unless you explicitly add repository secrets.
 
